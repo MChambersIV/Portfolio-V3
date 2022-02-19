@@ -9,83 +9,95 @@
     <title>Chambers' Portfolio</title>
 </head>
 <body>
-    <nav class="nav">
-        <a class="nav-link active" aria-current="page" href="#">About Me</a>
-        <a class="nav-link" href="https://linkedin.com/in/millard-chambers">LinkedIn</a>
-        <a class="nav-link" href="https://github.com/MChambersIV">Github</a>
-        <a class="nav-link" href="#">Resume</a>
+  <header>
+    
+    <h1 class="title bg-dark text-light row-start">Chambers' Portfolio</h1>
+    
+    <nav class="nav bg-dark text-light">
+          
+          <a class="nav-link link-light active" aria-current="page" href="#contact">Contact Me</a>
+          <a class="nav-link link-primary" href="https://linkedin.com/in/millard-chambers">LinkedIn</a>
+          <a class="nav-link link-success" href="https://github.com/MChambersIV">GitHub</a>
+          <a class="nav-link link-danger" href="https://drive.google.com/file/d/1zWUbt27l-IwGQGAYzvlKaHQCopJl1Und/view?usp=sharing">Resume</a>
     </nav>
+</header>
+  
+<main class="bg-dark text-light">
 
-    <div class="text-center">
-      <img src="..." class="rounded" alt="...">
+    <div class="text-start">
+      <div class="col-md-4">
+        <img src="./assets/img/placeholder.jpg" style="max-width: 480px;" class="img-fluid rounded-start border border-white" alt="Placeholder Self Image">
+      </div>
+    </div>
+      <div>
+        <article id="about">
+          <h2>About Me</h2>
+          <p class="abme">My name is Millard Chambers and I'm an apsiring Software Developer.</p>
+          <p class="abme">I grew up all around the San Francisco Bay Area, exposing me to cultures and ways of life as varied as the people that people that make the Bay Area what it is.</p>
+          <p class="abme">Of course the Bay Area isn't just a bountiful cultural center, or perhaps because it is so, it's home to the foremost high technology hub of the world.</p>
+          <p class="abme">Watching the rapid pace of technology's advancement and how it improve the lives of people the world over because of talented and dedicated individuals inspired me journey down this path help leave it better than I found it.</p>
+          <p class="abme">For you consideration, I have included a few of my works to showcase some of the skills I've honed that would make me a valuable member of your team.</p>
+        </article>
     </div>
       
-      <div class="position-absolute top-50 start-50 translate-middle">
+       <div class="d-grid gap-3">
       
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3 bg-dark text-light" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
+            <img src="./assets/img/PerfectCup.png" class="img-fluid rounded-start border border-white" alt="Perfect Cup Homepage">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Perfect Cup</h5>
               <p class="card-text">Perfect Cup is the most recent project I completed as part of a small team. It allows a user to create an account and then create their ideal coffee from a list of ingredients. Then they can learn about about their coffee once it's created.</p>
-              <a href="#" class="btn btn-primary">Site</a>
-              <a href="#" class="btn btn-primary">Github</a>
+              <a href="https://powerful-wildwood-54385.herokuapp.com" class="btn btn-primary">Visit</a>
+              <a href="https://github.com/MChambersIV/Perfect-Cup" class="btn btn-success">GitHub</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3 bg-dark text-light" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
+            <img src="./assets/img/SoundLane.png" class="img-fluid rounded-start border border-white" alt="Sound Lane Homepage">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Sound Lane</h5>
               <p class="card-text">This is a musical artist information aggregate I built as part of a team using multiple 3rd party APIs. Really happy with this one because of it's daily use case. Always love to build something truly functional.</p>
-              <a href="#" class="btn btn-primary">Site</a>
-              <a href="#" class="btn btn-primary">Github</a>
+              <a href="https://samuellutz.github.io/Sound-Lane/" class="btn btn-primary">Visit</a>
+              <a href="https://github.com/MChambersIV/Sound-Lane" class="btn btn-success">GitHub</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3 bg-dark text-light" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
+            <img src="./assets/img/WeatherDashboard.png" class="img-fluid rounded-start border border-white" alt="Weather Dashboard landing page">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Weather Dashboard</h5>
               <p class="card-text">This is as the name suggests, a weather dashboard, on site load you can type in the name of any City and get the current weather and a 5 day forecast using the OpeanWeather API.</p>
-              <a href="#" class="btn btn-primary">Site</a>
-              <a href="#" class="btn btn-primary">Github</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-primary">Site</a>
-              <a href="#" class="btn btn-primary">Github</a>
+              <a href="https://mchambersiv.github.io/weather-dashboard/" class="btn btn-primary">Visit</a>
+              <a href="https://github.com/MChambersIV/weather-dashboard" class="btn btn-success">GitHub</a>
             </div>
           </div>
         </div>
       </div>
     
     </div>
+
+    <article class="border-top" id="contact">
+      <h2>Contact Me</h2>
+      <p class="abme">Email: notmyrealemail@gmail.com</p>
+      <p class="abme">Phone Number: (000) 000-0000</p>
+      <a class="nav-link link-light active" aria-current="page" href="#top">Return to Top</a>
+  </article>
+</main>
 </body>
 </html>
